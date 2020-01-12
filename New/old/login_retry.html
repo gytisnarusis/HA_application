@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>{{title}}</title>
+        <link href="../static/css/home.css" rel="stylesheet">
+    </head>
+<body background="../static/background.jpg">
+<h1>{{tiitle}}</h1>
+<div class="header">
+    <div class="jumbotron">
+      <h2 id="center">
+          <div class="title" style="top: 200px">VGTU Application Login</div></div>
+      </h2>
+<div class="wrapper">
+    <form action="/checkUser" method="post" style="margin-top: 300px">
+    <input type="text" name="user" placeholder="Username"><br>
+    <input type="text" name="password" placeholder="Password"><br>
+    <input type="submit" value="Login">
+    </form>
+<h2 id="center">
+        <div class="error" style="top: 300px">Account information is not valid. </div>
+        <div class="error" style="top: 320px">Please try again or Sign Up first.</div>
+    </h2>
+</div>
+    <div id="footer">
+        <div id="center">
+          <p style="text-align: center;">&copy; Gytis Narusis 2019</p>
+        </div>
+        </div>
+</body>
+</html>
